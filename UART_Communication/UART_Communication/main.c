@@ -69,7 +69,7 @@
      while (1) 
      {
  		DataProcessFunction();
- 	}
+ 	 }
  }
  
  
@@ -122,10 +122,3 @@
  
 
 
-// //uint8_t UART_Receive(){
-// ////// wait for data to be received
-// ////while(!(UCSR0A & (1<<RXC0)));
-// ////
-// ////// get and return received data from buffer
-// //return UDR0;
-// //}
